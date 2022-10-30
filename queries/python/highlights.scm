@@ -246,7 +246,6 @@
 [
   "try"
   "except"
-  "except*"
   "raise"
   "finally"
 ] @exception

@@ -18,8 +18,25 @@ local filetype_to_parsername = {
   pandoc = "markdown",
   rmd = "markdown",
   cs = "c_sharp",
+  tape = "vhs",
 }
 
+---@class InstallInfo
+---@field url string
+---@field branch string|nil
+---@field revision string|nil
+---@field files string[]
+---@field generate_requires_npm boolean|nil
+---@field requires_generate_from_grammar boolean|nil
+---@field location string|nil
+
+---@class ParserInfo
+---@field install_info InstallInfo
+---@field filetype string
+---@field maintainers string[]
+---@field experimental boolean|nil
+
+---@type ParserInfo[]
 local list = setmetatable({}, {
   __newindex = function(table, parsername, parserconfig)
     rawset(
@@ -1264,6 +1281,23 @@ list.diff = {
   },
   maintainers = { "@gbprod" },
   filetype = "gitdiff",
+}
+
+list.vhs = {
+  install_info = {
+    url = "https://github.com/charmbracelet/tree-sitter-vhs",
+    branch = "main",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@caarlos0", "@maaslalani" },
+  filetype = "tape",
+}
+
+list.awk = {
+  install_info = {
+    url = "https://github.com/Beaglefoot/tree-sitter-awk",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
 }
 
 local M = {

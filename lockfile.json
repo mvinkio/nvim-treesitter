@@ -5,8 +5,11 @@
   "astro": {
     "revision": "947e93089e60c66e681eba22283f4037841451e7"
   },
+  "awk": {
+    "revision": "a799bc5da7c2a84bc9a06ba5f3540cf1191e4ee3"
+  },
   "bash": {
-    "revision": "f1a86d3cc5aeeb67e0e52442e893af7f813025b4"
+    "revision": "77cf8a7cab8904baf1a721762e012644ac1d4c7b"
   },
   "beancount": {
     "revision": "4cbd1f09cd07c1f1fabf867c2cf354f9da53cc4c"
@@ -21,7 +24,7 @@
     "revision": "7175a6dd5fc1cee660dce6fe23f6043d75af424a"
   },
   "c_sharp": {
-    "revision": "5b60f99545fea00a33bbfae5be956f684c4c69e2"
+    "revision": "3ef3f7f99e16e528e6689eae44dff35150993307"
   },
   "clojure": {
     "revision": "087bac78c53fe1387756cd5b8e68a69b3f6d7244"
@@ -60,7 +63,7 @@
     "revision": "330eb648bbc257b4e91621e82a85372be7dde27a"
   },
   "dockerfile": {
-    "revision": "25c71d6a24cdba8f0c74ef40d4d2d93defd7e196"
+    "revision": "f913be9bb8689af22114605012693146fbe9ddaa"
   },
   "dot": {
     "revision": "9ab85550c896d8b294d9b9ca1e30698736f08cea"
@@ -77,11 +80,8 @@
   "elvish": {
     "revision": "f32711e31e987fd5c2c002f3daba02f25c68672f"
   },
-  "embdedded_template": {
-    "revision": "d21df11b0ecc6fd211dbe11278e92ef67bd17e97"
-  },
   "embedded_template": {
-    "revision": "1a538da253d73f896b9f6c0c7d79cda58791ac5c"
+    "revision": "91fc5ae1140d5c9d922312431f7d251a48d7b8ce"
   },
   "erlang": {
     "revision": "3a9c769444f08bbccce03845270efac0c641c5e7"
@@ -150,7 +150,7 @@
     "revision": "52b804b1cb2d57e58d90090326d3ef9bd19cf16c"
   },
   "help": {
-    "revision": "8df3266b423d24c9ac3f3b4b9928e65eb1e5e741"
+    "revision": "49cdef52ded4a886bf34bc474876b09f9270d48f"
   },
   "hjson": {
     "revision": "02fa3b79b3ff9a296066da6277adfc3f26cbc9e0"
@@ -159,7 +159,7 @@
     "revision": "384b26ec65e10f26cf147bfcde772c50ca5ef0d0"
   },
   "hocon": {
-    "revision": "bb412e2633f4a3611a4e16efe58d917093bb4782"
+    "revision": "c390f10519ae69fdb03b3e5764f5592fb6924bcc"
   },
   "html": {
     "revision": "29f53d8f4f2335e61bf6418ab8958dac3282077a"
@@ -189,10 +189,10 @@
     "revision": "0475a5017ad7dc84845d1d33187f2321abcb261d"
   },
   "julia": {
-    "revision": "0572cebf7b8e8ef5990b4d1e7f44f0b36f62922c"
+    "revision": "628713553c42f30595a3b0085bb587e9359b986a"
   },
   "kotlin": {
-    "revision": "a4f71eb9b8c9b19ded3e0e9470be4b1b77c2b569"
+    "revision": "b953dbdd05257fcb2b64bc4d9c1578fac12e3c28"
   },
   "lalrpop": {
     "revision": "7744b56f03ac1e5643fad23c9dd90837fe97291e"
@@ -207,7 +207,7 @@
     "revision": "e9948edc41e9e5869af99dddb2b5ff5cc5581af6"
   },
   "lua": {
-    "revision": "887dfd4e83c469300c279314ff1619b1d0b85b91"
+    "revision": "fb30e8cb605e2ebd6c643e6981325a63fbbde320"
   },
   "m68k": {
     "revision": "d097b123f19c6eaba2bf181c05420d88b9fc489d"
@@ -255,7 +255,7 @@
     "revision": "2fd40f477d3e2794af152618ccfac8d92eb72a66"
   },
   "perl": {
-    "revision": "ff5c3108083af6fcb7575e32a7558b8165a05bcd"
+    "revision": "749d26fe13fb131b92e6515416096e572575b981"
   },
   "php": {
     "revision": "ab2e72179ceb8bb0b249c8ac9162a148e911b3dc"
@@ -288,10 +288,10 @@
     "revision": "0695cd0760532de7b54f23c667d459b5d1332b44"
   },
   "r": {
-    "revision": "0f4f66e5050037b759ea040dafd596bcdda1de94"
+    "revision": "80efda55672d1293aa738f956c7ae384ecdc31b4"
   },
   "racket": {
-    "revision": "b9b2e7454d7098e44595dd8c1b471b9d1518b910"
+    "revision": "09cb27a06415bce529a26774a842f5a80d50d362"
   },
   "rasi": {
     "revision": "12391343979463a2484e6353e5afb6dcb8c31e8b"
@@ -300,7 +300,7 @@
     "revision": "e1cfca3c79896ff79842f057ea13e529b66af636"
   },
   "rego": {
-    "revision": "6d70da3a998fd0081efc5d1019c71e74cc1568e9"
+    "revision": "6174f05f58e8c35d8c82323dd8c599b90b3171b3"
   },
   "rnoweb": {
     "revision": "502c1126dc6777f09af5bef16e72a42f75bd081e"
@@ -309,16 +309,16 @@
     "revision": "25e6328872ac3a764ba8b926aea12719741103f1"
   },
   "ruby": {
-    "revision": "252ca18be76b0918fb6b34c302292b6931876c25"
+    "revision": "c91960320d0f337bdd48308a8ad5500bd2616979"
   },
   "rust": {
-    "revision": "47b061c1e1ba3a7e9c2f450363a50e87de3f7c61"
+    "revision": "0431a2c60828731f27491ee9fdefe25e250ce9c9"
   },
   "scala": {
     "revision": "140c96cf398693189d4e50f76d19ddfcd8a018f8"
   },
   "scheme": {
-    "revision": "af0fd1fa452cb2562dc7b5c8a8c55551c39273b9"
+    "revision": "bdcd2c8496701153506a9e3e1b76dfed852873ba"
   },
   "scss": {
     "revision": "c478c6868648eff49eb04a4df90d703dc45b312a"
@@ -333,7 +333,7 @@
     "revision": "05f949d3c1c15e3261473a244d3ce87777374dec"
   },
   "sql": {
-    "revision": "2743c7b5e710e6854d4e8c14c302548b436e2a1f"
+    "revision": "70c50264ae022193adb364ffa7a767d765ed9857"
   },
   "supercollider": {
     "revision": "90c6d9f777d2b8c4ce497c48b5f270a44bcf3ea0"
@@ -345,7 +345,7 @@
     "revision": "52e122ae68b316d3aa960a0a422d3645ba717f42"
   },
   "swift": {
-    "revision": "c88b5d73f193f5b0762b1a5f0299a275e6a728fb"
+    "revision": "25f8de356e3c33099ed691bd3b8b5c0fe3a11e15"
   },
   "sxhkdrc": {
     "revision": "440d5f913d9465c9c776a1bd92334d32febcf065"
@@ -372,13 +372,13 @@
     "revision": "085437f5cb117703b7f520dd92161140a684f092"
   },
   "twig": {
-    "revision": "6a01f20e73038300d205d370212c361949be3035"
+    "revision": "035f549ec8c043e734f04341d7ccdc669bb2ba91"
   },
   "typescript": {
     "revision": "0ab9d99867435a7667c5548a6617a6bf73dbd830"
   },
   "v": {
-    "revision": "d0e7c755193c762eb1521e3b4740b22929cc91cc"
+    "revision": "66b92a89ef1e149300df79c0b2a934ad959c8eec"
   },
   "vala": {
     "revision": "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
@@ -386,8 +386,11 @@
   "verilog": {
     "revision": "4457145e795b363f072463e697dfe2f6973c9a52"
   },
+  "vhs": {
+    "revision": "2f87b9d973597e69552ecf6a4fe16470fbd8c44e"
+  },
   "vim": {
-    "revision": "9736af8ef0a7f20b4c45f6474342c8f5b473e2cc"
+    "revision": "4ae7bd67706d7e10afed827ce2ded884ab41650f"
   },
   "vue": {
     "revision": "91fe2754796cd8fba5f229505a23fa08f3546c06"
@@ -402,6 +405,6 @@
     "revision": "8e9d175982afcefa3dac8ca20d40d1643accd2bd"
   },
   "zig": {
-    "revision": "b1803f2a665d228f968a831eac4fcc07a377c7bc"
+    "revision": "d90d38d28ce8cc27bfea8b4e0c75211e9e2398ca"
   }
 }
